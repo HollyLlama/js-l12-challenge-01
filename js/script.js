@@ -12,7 +12,6 @@ const getImage = async function () {
 //Randomly Select the Index of an Image
 const selectRandomImage = function (images){
   const randomIndex = Math.floor(Math.random() * images.length);
-  // console.log(randomIndex);
   const randomImage = images[randomIndex];
   displayImage(randomImage);
 };
